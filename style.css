@@ -8,9 +8,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-header {
-    background: #2a254f;
-    padding: 20px;
+.header {
+    background: #33345A;
+    padding: 50px;
 }
 
 h1 {
@@ -29,6 +29,8 @@ main {
 
 main ul {
     list-style: none;
+    display: flex;
+    gap: 2em;
 }
 
 main ul li {
@@ -44,4 +46,15 @@ section {
 
 .container {
     text-align: center;
+}
+
+.game-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.game-btn:hover {
+    transform: scale(1.2);
 }

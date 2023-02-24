@@ -20,7 +20,7 @@ getComputerChoice();
 
 function playRound(playerSelection) {
     const computerSelection = getComputerChoice();
-    displayComputerChoice.textContent = `Computer chose ${computerSelection}`;
+    displayComputerChoice.innerHTML = `Computer chose <img src="images/${computerSelection}.png" alt="picture of rock">`;
 
     if (playerSelection === computerSelection) {
         results.textContent = `It's a tie!`;
